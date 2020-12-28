@@ -1,6 +1,6 @@
-void    ft_swap(int *n1, int *n2);
+void    fd_swap(int *n1, int *n2);
 
-void    ft_booble_sort(int vector[], int len)
+void    fd_booble_sort(int vector[], int len)
 {
     int i;
     int j;
@@ -13,7 +13,7 @@ void    ft_booble_sort(int vector[], int len)
         {
             if (vector[i] > vector [j])
             {
-                ft_swap(&vector[i], &vector[j]);
+                fd_swap(&vector[i], &vector[j]);
                 i = 0;
                 j = 1;
             }
@@ -26,7 +26,7 @@ void    ft_booble_sort(int vector[], int len)
     }
 }
 
-void    ft_swap(int *n1, int *n2)
+void    fd_swap(int *n1, int *n2)
 {
     int tmp;
 

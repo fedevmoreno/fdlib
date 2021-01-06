@@ -8,7 +8,7 @@ void	fd_print_array(int array[], int size)
 	while (i < size)
 	{
 		printf("%d", array[i]);
-		i++:
+		i++;
 	}
 	printf("\n");
 }

@@ -17,7 +17,6 @@ char	*fd_strrev(char *str)
 		len--;
 	}
 	return (str);
-
 }
 
 int	fd_strlen(char *str)

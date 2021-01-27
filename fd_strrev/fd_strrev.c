@@ -1,12 +1,12 @@
-int	fd_strlen(char *str);
+int	fd_str_len(char *str);
 
-char	*fd_strrev(char *str)
+char	*fd_str_rev(char *str)
 {
 	char tmp;
 	int len;
 	int i;
 
-	len = fd_strlen(str) - 1;
+	len = fd_str_len(str) - 1;
 	i = 0;
 	while (len > i)
 	{
@@ -19,7 +19,7 @@ char	*fd_strrev(char *str)
 	return (str);
 }
 
-int	fd_strlen(char *str)
+int	fd_str_len(char *str)
 {
 	int len;
 

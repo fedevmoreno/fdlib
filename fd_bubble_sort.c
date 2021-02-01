@@ -1,9 +1,9 @@
-void    fd_swap(int *n1, int *n2);
+#include "libfd.h"
 
-void    fd_booble_sort(int vector[], int len)
+void	fd_booble_sort(int vector[], int len)
 {
-    int i;
-    int j;
+    int	i;
+    int	j;
 
     i = 0;
     j = 1;
@@ -24,13 +24,4 @@ void    fd_booble_sort(int vector[], int len)
             }
         }
     }
-}
-
-void    fd_swap(int *n1, int *n2)
-{
-    int tmp;
-
-    tmp = *n1;
-    *n1 = *n2;
-    *n2 = tmp; 
 }

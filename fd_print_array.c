@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "libfd.h"
 
 void	fd_print_array(int array[], int size)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < size)

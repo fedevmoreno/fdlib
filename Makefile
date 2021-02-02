@@ -6,6 +6,7 @@ CFLAGS = -Wall -Wextra -Werror -I.
 
 SRCS =	fd_bubble_sort.c \
 		fd_int_len.c \
+		fd_int_max.c \
 		fd_print_array.c \
 		fd_str_len.c \
 		fd_str_rev.c \

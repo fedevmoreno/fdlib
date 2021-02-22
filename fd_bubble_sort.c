@@ -1,6 +1,6 @@
 #include "libfd.h"
 
-void	fd_booble_sort(int vector[], int len)
+void	fd_bubble_sort(int vector[], int len)
 {
     int	i;
     int	j;

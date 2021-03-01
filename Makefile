@@ -10,7 +10,11 @@ SRCS =	fd_bubble_sort.c \
 		fd_print_array.c \
 		fd_str_len.c \
 		fd_str_rev.c \
-		fd_swap.c
+		fd_swap.c \
+		fd_recursive_power.c \
+		fd_sqrt.c \
+		fd_put_nbr.c \
+		fd_put_char.c
 
 OBJS = $(SRCS:.c=.o)
 

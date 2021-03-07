@@ -14,7 +14,8 @@ SRCS =	fd_bubble_sort.c \
 		fd_recursive_power.c \
 		fd_sqrt.c \
 		fd_put_nbr.c \
-		fd_put_char.c
+		fd_put_char.c \
+		fd_abs.c
 
 OBJS = $(SRCS:.c=.o)
 

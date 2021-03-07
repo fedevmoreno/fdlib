@@ -16,5 +16,6 @@ void	fd_put_char(char c);
 void	fd_put_nbr(int nb);
 int		fd_sqrt(int nb);
 int		fd_recursive_power(int nb, int power);
+int		fd_abs(int i);
 
 #endif

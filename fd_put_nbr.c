@@ -2,7 +2,7 @@
 
 void	fd_put_nbr(int nb)
 {
-	unsigned int n;
+	unsigned int	n;
 
 	if (nb < 0)
 	{

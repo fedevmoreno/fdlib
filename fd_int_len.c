@@ -1,6 +1,6 @@
 #include "libfd.h"
 
-int		fd_ilen(int num)
+int	fd_ilen(int num)
 {
 	int	len;
 

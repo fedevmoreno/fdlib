@@ -1,6 +1,6 @@
 #include "libfd.h"
 
-size_t		fd_str_len(const char *s)
+size_t	fd_str_len(const char *s)
 {
 	size_t	len;
 

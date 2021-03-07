@@ -1,6 +1,6 @@
 #include "libfd.h"
 
-char		*fd_str_rev(char *str)
+char	*fd_str_rev(char *str)
 {
 	char	tmp;
 	int		len;

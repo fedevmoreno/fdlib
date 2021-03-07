@@ -2,7 +2,7 @@
 
 int	fd_recursive_power(int nb, int power)
 {
-	int result;
+	int	result;
 
 	result = nb;
 	if (power < 0)
